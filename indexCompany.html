@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="Style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<title>Softpro | Creative Software Company</title>
 </head>
 <body>
 	<div id="nav">	
-	<a href="indexCompany.html"><img class="animated bounceInDown" src="images/logoGenesis.png" width="70" height="70"></a>
+	<a href="indexCompany.html"><img class="animated bounceInDown" src="images/logoGenesis.png" width="70px" height="70px"></a>
 	<ul>
-		<li><a href="#Home"> Home</a></li>
-		<li><a href="#Portafolio"> Portafolio</a></li>
-		<li><a href="#Services"> Services</a></li>
-		<li><a href="#Contact"> Contact</a></li>
+		<li><a href="#Home" class="button button1"> Home</a></li>
+		<li><a href="#Portafolio" class="button button1"> Portafolio</a></li>
+		<li><a href="#Services" class="button button1"> Services</a></li>
+		<li><a href="#Contact" class="button button1"> Contact</a></li>
 	</ul>
 	<h1>A software company <br>  &#38;& Design Agency</h1>
 	<p class="animated fadeInUp">We love the Web and the work we do.We work closely with our clients to deliver </br>  the best possible solutions for their needs</p>
@@ -27,24 +28,44 @@
 		<p>Lorem ipsum dolor sit amet.</p>
 		<h4>Android App</h4>
 		<p>Lorem ipsum dolor sit amet.</p>
-		<img src="images/mockup.jpeg">
-		<img src="images/website.jpeg">
-		<img src="images/ios.jpeg">
-		<img src="images/android.jpeg">
+		<div class="container">
+    	  <img src=" images/mockup.jpeg" class="image">
+    	  <div class="overlay">
+    	    <div class="text"> <h2>MOCKUP</h2>persona en el celular</div>
+    	  </div>
+    	</div>
+    	<div class="container">
+    	  <img src=" images/website.jpeg" class="image">
+    	  <div class="overlay">
+    	    <div class="text"> <h2>WEBSITE</h2>laptop en el escritorio </div>
+    	  </div>
+    	</div>
+    	<div class="container">
+    	  <img src=" images/ios.jpeg" class="image">
+    	  <div class="overlay">
+    	    <div class="text"> <h2>IOS</h2>no me gusta</div>
+    	  </div>
+    	</div>
+    	<div class="container">
+    	  <img src=" images/android.jpeg" class="image">
+    	  <div class="overlay">
+    	    <div class="text"> <h2>ANDROID</h2>i like it</div>
+    	  </div>
+    	</div>
 	</div>
 	<div id="Services">
 		<h1> Our Services </h1> 
-		<h4>iOS and Android app development</h4>
+		<h4>iOS and Android app development  <i class="fa fa-mobile fa-2x" aria-hidden="true"></i></h4>
 		<p>Lorem ipsum dolor sit amet.</p>
-		<h4>App security</h4>
+		<h4>App security  <i class="fa fa-lock fa-2x" aria-hidden="true"></i></h4>
 		<p>Lorem ipsum dolor sit amet.</p>
-		<h4>Games development</h4>
+		<h4>Games development  <i class="fa fa-gamepad fa-2x" aria-hidden="true"></i></h4>
 		<p>Lorem ipsum dolor sit amet.</p>
-		<h4>Animation and editing</h4>
+		<h4>Animation and editing  <i class="fa fa-bath fa-2x" aria-hidden="true"></i></h4>
 		<p>Lorem ipsum dolor sit amet.</p>
-		<h4>UX/UI Design</h4>
+		<h4>UX/UI Design  <i class="fa fa-bell fa-2x" aria-hidden="true"></i></h4>
 		<p>Lorem ipsum dolor sit amet.</p>
-		<h4>Branding</h4>
+		<h4>Branding  <i class="fa fa-space-shuttle fa-5x" aria-hidden="true"></i></h4>
 		<p>Lorem ipsum dolor sit amet.</p>
 	</div>
 	<div id="Contact">
@@ -58,7 +79,8 @@
 			<input type="text" name="subject"><br><br>
 			Your Message:<br>
 			<textarea>aqui escriba su mensaje</textarea><br><br>
-			<input type="submit" value="Send">bnn 
+			<input type="submit" value="Send"> 
+			<p><button type="reset">Reset</button></p>
 		</form>
 	</div>
 	<p>Copyright 2018 &copy; Design & Developed by <a href="https://github.com/VenzorGA">Alejandro Venzor Gutierrez</a></p>

@@ -2,22 +2,75 @@
 h1{
 	font-family: Roboto, sans-serif;
 }
+.button:link, .button:visited {
+		background-color: #D46142;
+		color: white;
+		padding: 14px 25px;
+		text-align: center;
+		text-decoration: none;
+		padding: 14px 110px;
+	}
+
+	li{
+		display: inline-block;
+		list-style:none;
+	}
+	.button1:hover, .button1:active {
+		background-color: #4184F9;
+	}
+	
 #Portafolio{
 	background-color: rgb(240,240,240);
-	border: 2px solid red
 }
 #nav{
 	background-size: auto;
-	background-image: url(images/background1.jpeg); width: 1607px; height: 1138px;
-	border: 2px solid blue;
+	background-image: url(images/background1.jpeg); width: 1292px; height: 738px;
 	position: center;
 	color: white
 }
 #Services{
 	background-color: rgb(240,240,240);
-	border: 2px solid red
 }
 #Contact{
-	background-color: rgb(240,240,240);
-	border: 2px solid green
+	background-color: rgb(177,248,225);
 }
+
+.container {
+		display: inline-block;
+		position: relative;
+		width: 250px;height: 250px;
+	}
+
+	.image {
+		width: 250px;
+		height: 250px;
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: #008CBA;
+	}
+
+	.container:hover .overlay {
+		opacity: 1;
+	}
+
+	.text {
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	}
+	h4 { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+	p { font-family: "Brush Script MT", cursive; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Brush Script MT", cursive; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Brush Script MT", cursive; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Brush Script MT", cursive; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Brush Script MT", cursive; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
